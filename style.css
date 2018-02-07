@@ -1,0 +1,28 @@
+/* TODO: write CSS here */
+/* ===============================================
+================== STENCIL CODE ==================
+================================================== */
+
+/* Loads the "Work Sans" font hosted by Google Fonts. */
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700');
+
+/* Resetting some default values—feel free to override these elsewhere */
+body,div,h1,h2,h3,h4,h5,ul {
+	padding: 0;
+	margin: 0;
+}
+
+/* Take note of how to apply a custom font, weight (thickness), and size! */
+form {
+	font-family:"Work Sans", "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	font-color: red;
+	width: 150px;
+}
+
+/* Prevents the maximum width of the content blocks from exceeding 768px */
+#header,#splash_content,#features,#footer {
+	max-width: 768px;
+	margin: 0 auto;
+}

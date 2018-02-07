@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>CS132 Lab 2</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+    <h1>Coolest Triangle Calculator!<br></h1>
+  <body>
+    <!-- TODO: Write your code here -->
+	<form action="\action_page.php">
+		First side: <input type="number" min="0" name="firstSide" id="a">
+	  	Second side: <input type="number" min="0" name="secondSide" id="b">
+		Third side: <input type="number" min="0" name="thirdSide" id="c">
+	</form>
+	<button type="submit" form="form1" value="Submit" id = "btn">Submit</button>
+	  <h2 id = "result">Result:</h2>
+    <!-- includes jQuery v3.3.1 in case you would like to use jQuery-->
+    <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+            crossorigin="anonymous"></script>
+    <!-- includes triangle.js from your directory-->
+	  <script src="triangle.js"></script>
+  </body>
+</html>
